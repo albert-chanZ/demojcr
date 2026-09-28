@@ -1,0 +1,49 @@
+name: demojcr
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Iconos predeterminados
+  cupertino_icons: ^1.0.8
+
+  # Conexión con Supabase
+  supabase_flutter: ^2.8.0
+
+  # Captura de firma digital en pantalla
+  signature: ^5.5.0
+
+  # Formateo de fechas y horas
+  intl: ^0.19.0
+
+  # Generación e Impresión de PDF
+  pdf: ^3.11.1
+  printing: ^5.13.2
+  share_plus: ^10.1.0
+  
+  # Envío de correo desde el dispositivo
+  url_launcher: ^6.3.1
+
+  excel: ^4.0.3
+  xml: ^6.3.0
+  archive: ^3.3.0
+  file_picker: ^8.1.4
+  csv: ^6.0.0
+  flutter_local_notifications: ^22.3.1
+  flutter_timezone: ^5.1.0
+  timezone: ^0.11.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
